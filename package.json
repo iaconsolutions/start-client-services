@@ -1,0 +1,16 @@
+{
+  "name": "start-client-services",
+  "version": "1.0.0",
+  "description": "Este projeto que gera um arquivo `ecosystem.config.json` como base para iniciar e gerenciar serviços com o PM2.",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
